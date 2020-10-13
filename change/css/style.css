@@ -61,10 +61,6 @@ a {
   box-sizing: border-box;
 }
 
-.no-pc, .no-sp {
-  display: none;
-}
-
 .container {
   width: auto;
   margin: 0 auto;
@@ -1319,21 +1315,8 @@ a:hover {
   color: orange;
 }
 
-@media (max-width: 559px) {
-  .no-sp {
-    display: none;
-  }
-  .no-pc {
-    display: block;
-  }
-  .container {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  .container2 {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
+.no-pc {
+  display: none;
 }
 
 @media (max-width: 959px) {
